@@ -1,0 +1,19 @@
+.container {
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/bg2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .center-h {
+    justify-content: center;
+  }
+  .center-v {
+    align-items: center;
+  }

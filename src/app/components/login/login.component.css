@@ -1,0 +1,46 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/volcano-ged1b85aad_1920.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  position: relative;
+  align-self: center;
+  background-color: white;
+  opacity: 50%;
+  width: 408px;
+  height: 605px;
+  border-radius: 20px;
+}
+.loginBox {
+  position: absolute;
+  align-self: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 600px;
+}
+.form-check {
+  display: flex;
+  width: 300px;
+}
+
+.labeltag {
+  align-self: flex-start;
+  margin-left: 13%;
+}
+.icon{
+  width: 160px;
+  height: 220px;
+}

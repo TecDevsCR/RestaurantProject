@@ -1,0 +1,20 @@
+<header></header>
+<section class="container">
+  <div class="box"></div>
+  <div class="RegisterBox">
+    <h1>Sign Up</h1>
+    <form class="registerForm">
+        <input type="text" class="form-control" id="inputPassword" placeholder="Username">
+        <input type="email" class="form-control" id="inputPassword" placeholder="Email">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">  
+        <input type="button" class="btn btn-primary btn-block" value="Sign Up" (click)="register()">
+    </form>
+    <br>
+    <div class="terms">
+        <label>By clicking the Sing Up button you agree to our <a [routerLink]="['/register']" style="text-decoration: none;">Terms & Conditions, Provacy Policy</a></label>
+    </div>
+    
+  </div>
+</section>
+<footer></footer>

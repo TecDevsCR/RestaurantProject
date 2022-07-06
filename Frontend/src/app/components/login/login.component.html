@@ -1,33 +1,31 @@
-<header></header>
 <section class="container">
-  <div class="box">
-    
-  </div>
-  <div class="loginBox">
-    <img class="icon" src="../../../assets/Icon.png">
-    <strong class="labeltag"><label for="inputPassword">User</label></strong>
-    <div style="width: 300px;">
-      <input type="password" class="form-control" id="inputPassword" />
+    <div class="box">
+
     </div>
-    <strong class="labeltag"><label for="inputPassword" >Password</label></strong>
-    <div style="width: 300px;">
-      <input type="password" class="form-control" id="inputPassword" />
-    </div>
-    <div class="form-check" style="justify-content: space-between;">
-      <div>
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
+    <div class="loginBox">
+        <img class="icon" src="../../../assets/Icon.png">
+        <strong class="labeltag"><label for="inputPassword">User</label></strong>
+        <div style="width: 300px;">
+            <input type="password" class="form-control" id="inputPassword" />
+        </div>
+        <strong class="labeltag"><label for="inputPassword" >Password</label></strong>
+        <div style="width: 300px;">
+            <input type="password" class="form-control" id="inputPassword" />
+        </div>
+        <div class="form-check" style="justify-content: space-between;">
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
         Remember me
       </label>
-      </div>
-      <label class="form-check-label" for="flexCheckDefault">
-        <a href="" style="text-decoration: none;">Forgot Password?</a>  
+            </div>
+            <label class="form-check-label">
+        <a class="anchor" style="text-decoration: none;" (click)="throwSwal()">Forgot Password?</a>  
       </label>
-    </div>
-    <button type="submit" class="btn btn-primary mb-3" style="margin-top: 20px" [routerLink]="['/home']">
+        </div>
+        <button type="submit" class="btn btn-primary mb-3" style="margin-top: 20px" [routerLink]="['/home']">
       Log In
     </button>
-    <label>Not a member?<a [routerLink]="['/register']" style="text-decoration: none;">Create Account</a></label>
-  </div>
+        <label>Not a member?<a [routerLink]="['/register']" style="text-decoration: none;">Create Account</a></label>
+    </div>
 </section>
-<footer></footer>

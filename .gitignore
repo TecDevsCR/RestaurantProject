@@ -7,6 +7,9 @@ bin-release/
 # Dependencies
 node_modules
 
+# Misc
+.angular/cache/
+
 # Other files and folders
 .settings/
 
